@@ -30,11 +30,11 @@ python -m venv .venv
 .venv\Scripts\activate  # Windows
 source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
-
+```
 ## Запуск бенчмарка
-
-python test_run.py
-
+```
+python main.py
+```
 📊 Результаты
 Результаты сохраняются в папку results/:
 Отдельный CSV для каждого сервиса
@@ -43,7 +43,7 @@ python test_run.py
 🏗️ Структура проекта
 
 ├── config.py           # Настройки и список сервисов
-├── test_run.py         # Точка входа
+├── main.py             # Точка входа
 ├── src/
 │   ├── core.py         # Движок замеров
 │   └── reporters.py    # Вывод статистики и экспорт
@@ -53,19 +53,19 @@ python test_run.py
 🔧 Настройка
 Добавить новый сервис
 Открой config.py и добавь в список targets:
-
+```
 TargetConfig(
     name="Мой Сервис",
     host="myservice.ru",
     path="/",
     port=443
 ),
-
+```
 ### Изменить количество повторов
 В config.py измени:
-
+```
 repeats: int = 5  # количество замеров на сервис
-
+```
 📝 Лицензия
 MIT License
 👤 Автор
