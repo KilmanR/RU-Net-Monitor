@@ -15,7 +15,7 @@
       "category": "banks"
     },
     "Альфа-Банк": {
-      "host": "www.alfabank.ru",
+      "host": "alfabank.ru",
       "path": "/",
       "port": 443,
       "timeout": 5.0,
