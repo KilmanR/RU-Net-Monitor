@@ -1,210 +1,40 @@
 {
   "Банки": {
-    "Сбербанк Онлайн": {
-      "host": "online.sberbank.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "banks"
-    },
-    "Т-Банк": {
-      "host": "www.tinkoff.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "banks"
-    },
-    "Альфа-Банк": {
-      "host": "alfabank.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "banks"
-    },
-    "ВТБ Онлайн": {
-      "host": "www.vtb.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 10.0,
-      "category": "banks"
-    },
-    "Газпромбанк": {
-      "host": "www.gazprombank.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 10.0,
-      "category": "banks"
-    }
+    "Сбербанк Онлайн": {"host": "online.sberbank.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "banks"},
+    "Т-Банк": {"host": "www.tinkoff.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "banks"},
+    "Альфа-Банк": {"host": "alfabank.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "banks"},
+    "ВТБ Онлайн": {"host": "www.vtb.ru", "path": "/", "port": 443, "timeout": 10.0, "category": "banks"},
+    "Газпромбанк": {"host": "www.gazprombank.ru", "path": "/", "port": 443, "timeout": 10.0, "category": "banks"}
   },
   "Почта": {
-    "Почта Mail.ru": {
-      "host": "mail.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "email"
-    },
-    "Почта Рамблер": {
-      "host": "mail.rambler.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "email"
-    },
-    "Яндекс.Почта": {
-      "host": "mail.yandex.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "email"
-    },
-    "VK Почта": {
-      "host": "mail.vk.com",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "email"
-    }
+    "Почта Mail.ru": {"host": "mail.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "email"},
+    "Почта Рамблер": {"host": "mail.rambler.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "email"},
+    "Яндекс.Почта": {"host": "mail.yandex.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "email"},
+    "VK Почта": {"host": "mail.vk.com", "path": "/", "port": 443, "timeout": 5.0, "category": "email"}
   },
   "Хранилища": {
-    "Яндекс.Диск": {
-      "host": "disk.yandex.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "storage"
-    },
-    "Облако Mail.ru": {
-      "host": "cloud.mail.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "storage"
-    },
-    "СберДиск": {
-      "host": "sberbank.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "storage"
-    },
-    "VK Облако": {
-      "host": "cloud.vk.com",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "storage"
-    }
+    "Яндекс.Диск": {"host": "disk.yandex.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "storage"},
+    "Облако Mail.ru": {"host": "cloud.mail.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "storage"},
+    "СберДиск": {"host": "sberbank.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "storage"},
+    "VK Облако": {"host": "cloud.vk.com", "path": "/", "port": 443, "timeout": 5.0, "category": "storage"}
   },
   "Мессенджеры": {
-    "Мессенджер Макс": {
-      "host": "web.max.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "messenger"
-    },
-    "VK Мессенджер": {
-      "host": "vk.com",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "messenger"
-    },
-    "ICQ New": {
-      "host": "icq.com",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "messenger"
-    },
-    "Viber": {
-      "host": "viber.com",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "messenger"
-    },
-    "WhatsApp Web": {
-      "host": "web.whatsapp.com",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "messenger"
-    }
+    "Мессенджер Макс": {"host": "web.max.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "messenger"},
+    "VK Мессенджер": {"host": "vk.com", "path": "/", "port": 443, "timeout": 5.0, "category": "messenger"},
+    "ICQ New": {"host": "icq.com", "path": "/", "port": 443, "timeout": 5.0, "category": "messenger"}
   },
   "Медиа": {
-    "Яндекс.Музыка": {
-      "host": "music.yandex.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "media"
-    },
-    "VK Музыка": {
-      "host": "vk.com",
-      "path": "/audio",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "media"
-    },
-    "RuTube": {
-      "host": "rutube.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "media"
-    },
-    "VK Видео": {
-      "host": "vk.com",
-      "path": "/video",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "media"
-    },
-    "Яндекс.Дзен": {
-      "host": "dzen.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "media"
-    }
+    "Яндекс.Музыка": {"host": "music.yandex.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "media"},
+    "VK Музыка": {"host": "vk.com", "path": "/audio", "port": 443, "timeout": 5.0, "category": "media"},
+    "RuTube": {"host": "rutube.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "media"},
+    "VK Видео": {"host": "vk.com", "path": "/video", "port": 443, "timeout": 5.0, "category": "media"},
+    "Яндекс.Дзен": {"host": "dzen.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "media"}
   },
   "ИИ": {
-    "GigaChat": {
-      "host": "developers.sber.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "ai"
-    },
-    "Алиса": {
-      "host": "alice.yandex.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "ai"
-    },
-    "Qwen AI": {
-      "host": "chat.qwen.ai",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "ai"
-    },
-    "DeepSeek": {
-      "host": "chat.deepseek.com",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "ai"
-    },
-    "YandexGPT": {
-      "host": "cloud.yandex.ru",
-      "path": "/",
-      "port": 443,
-      "timeout": 5.0,
-      "category": "ai"
-    }
+    "GigaChat": {"host": "developers.sber.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "ai"},
+    "Алиса": {"host": "alice.yandex.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "ai"},
+    "Qwen AI": {"host": "chat.qwen.ai", "path": "/", "port": 443, "timeout": 5.0, "category": "ai"},
+    "DeepSeek": {"host": "chat.deepseek.com", "path": "/", "port": 443, "timeout": 5.0, "category": "ai"},
+    "YandexGPT": {"host": "cloud.yandex.ru", "path": "/", "port": 443, "timeout": 5.0, "category": "ai"}
   }
 }
