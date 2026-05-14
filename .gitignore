@@ -35,8 +35,8 @@ ENV/
 # === Logs & Results ===
 logs/
 *.log
-results/
-*.csv
+# results/
+
 *.json
 *.xlsx
 
